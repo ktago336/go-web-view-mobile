@@ -5,5 +5,5 @@
 package bind
 
 import (
-	_ "golang.org/x/mobile/bind/seq"
+	_ "github.com/ktago336/go-web-view-mobile/bind/seq"
 )

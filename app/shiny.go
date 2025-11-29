@@ -9,12 +9,12 @@ package app
 import (
 	"log"
 
+	"github.com/ktago336/go-web-view-mobile/event/lifecycle"
+	"github.com/ktago336/go-web-view-mobile/event/mouse"
+	"github.com/ktago336/go-web-view-mobile/event/touch"
+	"github.com/ktago336/go-web-view-mobile/gl"
 	"golang.org/x/exp/shiny/driver/gldriver"
 	"golang.org/x/exp/shiny/screen"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/mouse"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/gl"
 )
 
 func main(f func(a App)) {

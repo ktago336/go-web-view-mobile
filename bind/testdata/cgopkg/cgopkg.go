@@ -3,7 +3,7 @@ package cgopkg
 import "C"
 
 import (
-	_ "golang.org/x/mobile/gl"
+	_ "github.com/ktago336/go-web-view-mobile/gl"
 )
 
 func Dummy() {}

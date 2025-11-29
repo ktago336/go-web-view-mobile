@@ -47,9 +47,9 @@ goroutine as other code that calls OpenGL.
 	import (
 		"log"
 
-		"golang.org/x/mobile/app"
-		"golang.org/x/mobile/event/lifecycle"
-		"golang.org/x/mobile/event/paint"
+		"github.com/ktago336/go-web-view-mobile/app"
+		"github.com/ktago336/go-web-view-mobile/event/lifecycle"
+		"github.com/ktago336/go-web-view-mobile/event/paint"
 	)
 
 	func main() {

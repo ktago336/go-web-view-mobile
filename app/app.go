@@ -7,10 +7,10 @@
 package app
 
 import (
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/gl"
-	_ "golang.org/x/mobile/internal/mobileinit"
+	"github.com/ktago336/go-web-view-mobile/event/lifecycle"
+	"github.com/ktago336/go-web-view-mobile/event/size"
+	"github.com/ktago336/go-web-view-mobile/gl"
+	_ "github.com/ktago336/go-web-view-mobile/internal/mobileinit"
 )
 
 // Main is called by the main.main function to run the mobile application.

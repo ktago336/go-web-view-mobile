@@ -16,9 +16,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/mobile/internal/importers"
-	"golang.org/x/mobile/internal/importers/java"
-	"golang.org/x/mobile/internal/importers/objc"
+	"github.com/ktago336/go-web-view-mobile/internal/importers"
+	"github.com/ktago336/go-web-view-mobile/internal/importers/java"
+	"github.com/ktago336/go-web-view-mobile/internal/importers/objc"
 	"golang.org/x/tools/go/packages"
 )
 

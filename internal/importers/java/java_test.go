@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/mobile/internal/importers"
+	"github.com/ktago336/go-web-view-mobile/internal/importers"
 )
 
 func TestImport(t *testing.T) {

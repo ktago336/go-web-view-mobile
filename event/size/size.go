@@ -11,7 +11,7 @@ package size
 import (
 	"image"
 
-	"golang.org/x/mobile/geom"
+	"github.com/ktago336/go-web-view-mobile/geom"
 )
 
 // Event holds the dimensions, physical resolution and orientation of the app's

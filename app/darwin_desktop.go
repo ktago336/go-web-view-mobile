@@ -28,12 +28,12 @@ import (
 	"runtime"
 	"sync"
 
-	"golang.org/x/mobile/event/key"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/geom"
+	"github.com/ktago336/go-web-view-mobile/event/key"
+	"github.com/ktago336/go-web-view-mobile/event/lifecycle"
+	"github.com/ktago336/go-web-view-mobile/event/paint"
+	"github.com/ktago336/go-web-view-mobile/event/size"
+	"github.com/ktago336/go-web-view-mobile/event/touch"
+	"github.com/ktago336/go-web-view-mobile/geom"
 )
 
 var initThreadID uint64

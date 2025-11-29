@@ -5,7 +5,7 @@
 package main
 
 import (
-	_ "golang.org/x/mobile/bind"
-	_ "golang.org/x/mobile/bind/java"
-	_ "golang.org/x/mobile/bind/objc"
+	_ "github.com/ktago336/go-web-view-mobile/bind"
+	_ "github.com/ktago336/go-web-view-mobile/bind/java"
+	_ "github.com/ktago336/go-web-view-mobile/bind/objc"
 )

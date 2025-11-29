@@ -156,7 +156,7 @@ func helpDocumentation(path string) {
 		w.WriteString(cmd.Long)
 	}
 
-	w.WriteString("*/\npackage main // import \"golang.org/x/mobile/cmd/gomobile\"\n")
+	w.WriteString("*/\npackage main // import \"github.com/ktago336/go-web-view-mobile/cmd/gomobile\"\n")
 
 	if err := os.WriteFile(path, w.Bytes(), 0666); err != nil {
 		log.Fatal(err)

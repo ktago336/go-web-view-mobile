@@ -10,7 +10,7 @@ package mouse
 import (
 	"fmt"
 
-	"golang.org/x/mobile/event/key"
+	"github.com/ktago336/go-web-view-mobile/event/key"
 )
 
 // Event is a mouse event.

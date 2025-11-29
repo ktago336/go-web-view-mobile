@@ -14,9 +14,9 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/exp/f32"
-	"golang.org/x/mobile/geom"
+	"github.com/ktago336/go-web-view-mobile/event/size"
+	"github.com/ktago336/go-web-view-mobile/exp/f32"
+	"github.com/ktago336/go-web-view-mobile/geom"
 )
 
 func TestAffine(t *testing.T) {

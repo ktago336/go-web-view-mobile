@@ -16,7 +16,7 @@ import (
 	"runtime"
 	"strings"
 
-	"golang.org/x/mobile/internal/sdkpath"
+	"github.com/ktago336/go-web-view-mobile/internal/sdkpath"
 )
 
 // General mobile build environment. Initialized by envInit.

@@ -43,11 +43,11 @@ package main
 import (
 	"net/http"
 
-	"golang.org/x/mobile/app"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/gl"
+	"github.com/ktago336/go-web-view-mobile/app"
+	"github.com/ktago336/go-web-view-mobile/event/lifecycle"
+	"github.com/ktago336/go-web-view-mobile/event/paint"
+	"github.com/ktago336/go-web-view-mobile/event/size"
+	"github.com/ktago336/go-web-view-mobile/gl"
 )
 
 func main() {

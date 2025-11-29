@@ -14,7 +14,7 @@ import (
 	"testing"
 	"text/template"
 
-	"golang.org/x/mobile/internal/sdkpath"
+	"github.com/ktago336/go-web-view-mobile/internal/sdkpath"
 )
 
 func TestBindAndroid(t *testing.T) {
@@ -62,7 +62,7 @@ func TestBindAndroid(t *testing.T) {
 		if goos == "windows" {
 			os.Setenv("HOMEDRIVE", "C:")
 		}
-		cmdBind.flag.Parse([]string{"golang.org/x/mobile/asset"})
+		cmdBind.flag.Parse([]string{"github.com/ktago336/go-web-view-mobile/asset"})
 		err := runBind(cmdBind)
 		if err != nil {
 			t.Log(buf.String())
@@ -144,7 +144,7 @@ func TestBindApple(t *testing.T) {
 		if goos == "windows" {
 			os.Setenv("HOMEDRIVE", "C:")
 		}
-		cmdBind.flag.Parse([]string{"golang.org/x/mobile/asset"})
+		cmdBind.flag.Parse([]string{"github.com/ktago336/go-web-view-mobile/asset"})
 		if err := runBind(cmdBind); err != nil {
 			t.Log(buf.String())
 			t.Fatal(err)
@@ -243,7 +243,7 @@ func TestBindAppleAll(t *testing.T) {
 	if goos == "windows" {
 		os.Setenv("HOMEDRIVE", "C:")
 	}
-	cmdBind.flag.Parse([]string{"golang.org/x/mobile/asset"})
+	cmdBind.flag.Parse([]string{"github.com/ktago336/go-web-view-mobile/asset"})
 	if err := runBind(cmdBind); err != nil {
 		t.Log(buf.String())
 		t.Fatal(err)
@@ -307,7 +307,7 @@ golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:I/5z698sn9Ka8T
 const ambiguousPathsGo = `package ambiguouspaths
 
 import (
-	_ "golang.org/x/mobile/app"
+	_ "github.com/ktago336/go-web-view-mobile/app"
 )
 
 func Dummy() {}
@@ -320,10 +320,10 @@ func TestBindWithGoModules(t *testing.T) {
 
 	dir := t.TempDir()
 
-	if out, err := exec.Command("go", "build", "-o="+dir, "golang.org/x/mobile/cmd/gobind").CombinedOutput(); err != nil {
+	if out, err := exec.Command("go", "build", "-o="+dir, "github.com/ktago336/go-web-view-mobile/cmd/gobind").CombinedOutput(); err != nil {
 		t.Fatalf("%v: %s", err, string(out))
 	}
-	if out, err := exec.Command("go", "build", "-o="+dir, "golang.org/x/mobile/cmd/gomobile").CombinedOutput(); err != nil {
+	if out, err := exec.Command("go", "build", "-o="+dir, "github.com/ktago336/go-web-view-mobile/cmd/gomobile").CombinedOutput(); err != nil {
 		t.Fatalf("%v: %s", err, string(out))
 	}
 	path := dir
@@ -374,7 +374,7 @@ func TestBindWithGoModules(t *testing.T) {
 			}{
 				{
 					Name: "Absolute Path",
-					Path: "golang.org/x/mobile/bind/testdata/cgopkg",
+					Path: "github.com/ktago336/go-web-view-mobile/bind/testdata/cgopkg",
 				},
 				{
 					Name: "Relative Path",

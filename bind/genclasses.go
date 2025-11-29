@@ -12,8 +12,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/mobile/internal/importers"
-	"golang.org/x/mobile/internal/importers/java"
+	"github.com/ktago336/go-web-view-mobile/internal/importers"
+	"github.com/ktago336/go-web-view-mobile/internal/importers/java"
 )
 
 type (
@@ -940,7 +940,7 @@ import "C"
 
 import (
 	"Java"
-	_seq "golang.org/x/mobile/bind/seq"
+	_seq "github.com/ktago336/go-web-view-mobile/bind/seq"
 )
 
 `

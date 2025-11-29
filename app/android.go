@@ -51,14 +51,14 @@ import (
 	"time"
 	"unsafe"
 
-	"golang.org/x/mobile/app/internal/callfn"
-	"golang.org/x/mobile/event/key"
-	"golang.org/x/mobile/event/lifecycle"
-	"golang.org/x/mobile/event/paint"
-	"golang.org/x/mobile/event/size"
-	"golang.org/x/mobile/event/touch"
-	"golang.org/x/mobile/geom"
-	"golang.org/x/mobile/internal/mobileinit"
+	"github.com/ktago336/go-web-view-mobile/app/internal/callfn"
+	"github.com/ktago336/go-web-view-mobile/event/key"
+	"github.com/ktago336/go-web-view-mobile/event/lifecycle"
+	"github.com/ktago336/go-web-view-mobile/event/paint"
+	"github.com/ktago336/go-web-view-mobile/event/size"
+	"github.com/ktago336/go-web-view-mobile/event/touch"
+	"github.com/ktago336/go-web-view-mobile/geom"
+	"github.com/ktago336/go-web-view-mobile/internal/mobileinit"
 )
 
 // RunOnJVM runs fn on a new goroutine locked to an OS thread with a JNIEnv.
