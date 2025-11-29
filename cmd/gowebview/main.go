@@ -21,7 +21,7 @@ import (
 )
 
 var (
-	gomobileName = "gomobile"
+	gomobileName = "gowebview"
 	goVersion    string
 )
 

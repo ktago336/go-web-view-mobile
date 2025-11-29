@@ -1,23 +1,11 @@
-module golang.org/x/mobile
+module github.com/ktago336/go-webViewMobile
 
-go 1.24.0
-
-// The modern go/types type checker produces types.Alias
-// types for the explicit representation of type aliases.
-// (Initial opt-in support for it was added in Go 1.22,
-// and it became the default behavior in Go 1.23.)
-//
-// TODO(go.dev/issue/70698): Update the golang.org/x/mobile/bind
-// code generator for the new behavior and delete this temporary¹
-// forced pre-1.23 go/types behavior.
-//
-// ¹ It's temporary because this godebug setting will be removed
-//   in a future Go release.
-godebug gotypesalias=0
+go 1.25.4
 
 require (
-	golang.org/x/exp/shiny v0.0.0-20251023183803-a4bb9ffd2546
+	golang.org/x/exp/shiny v0.0.0-20251125195548-87e1e737ad39
 	golang.org/x/image v0.33.0
+	golang.org/x/mobile v0.0.0-20251126181937-5c265dc024c4
 	golang.org/x/mod v0.30.0
 	golang.org/x/sync v0.18.0
 	golang.org/x/tools v0.39.0
